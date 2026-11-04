@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+<rect width="400" height="400" fill="#0b1017"/>
+<rect x="10" y="10" width="380" height="380" fill="none" stroke="#1d2838" stroke-width="4" rx="24"/>
+<text x="200" y="190" font-family="monospace" font-size="110" font-weight="bold" fill="#ffd94d" text-anchor="middle">J</text>
+<text x="200" y="275" font-family="monospace" font-size="40" fill="#00d4ff" text-anchor="middle">TS$</text>
+<rect x="262" y="250" width="14" height="30" fill="#00d4ff"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></rect>
+</svg>
