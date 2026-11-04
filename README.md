@@ -1,16 +1,60 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://raw.githubusercontent.com/JuanTS/JuanTS/main/assets/banner.svg" alt="JuanTS — laboratorio local de IA" width="100%">
+</div>
 
-<!--
-**JuanTS/JuanTS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Juan Talavera · `JuanTS`
 
-Here are some ideas to get you started:
+Monto laboratorios de IA en casa: tres máquinas, modelos locales, voz propia y un panel de control que se reinicia cuando le apetece. Nada de humo: si algo funciona, se ve; si no, se ve el error en el panel.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```text
+juan@lider:~$ neofetch --lab
+Modelos locales .... Qwen3.8-Flash-Next (Strata), llama.cpp, Ollama
+Voz ................ Whisper (STT) + Piper (TTS), castellano peninsular
+Panel .............. puerto 8788, refresco cada 5 s, negro con amarillo
+Filosofía .......... lo local primero; la nube es para quienes dudan
+```
+
+### 🧪 El laboratorio
+
+```
+     [Líder · Lenovo]  ⇄  [Implementador · Ubuntu]  ⇄  [Revisor · portátil]
+      Hermes + voz         modelos pesados, RAG,         pruebas, VSCode,
+      panel de control     finetuning                    OpenCode
+```
+
+Unidas por Tailscale. El firewall las separa con entusiasmo, como debe ser.
+
+### 🛠️ Stack
+
+![Python](https://img.shields.io/badge/Python-3.12-3776ab?style=flat&labelColor=0b1017)
+![PySpark](https://img.shields.io/badge/PySpark-ETL-ff6c00?style=flat&labelColor=0b1017)
+![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-gateway%2Bcron-ffd94d?style=flat&labelColor=0b1017)
+![Strata](https://img.shields.io/badge/Strata-Qwen3.8--Flash--Next-00d4ff?style=flat&labelColor=0b1017)
+![Ollama](https://img.shields.io/badge/Ollama-modelos%20locales-00d4ff?style=flat&labelColor=0b1017)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-heretic-7f8fa6?style=flat&labelColor=0b1017)
+![Whisper](https://img.shields.io/badge/Whisper-STT%20local-ffd94d?style=flat&labelColor=0b1017)
+![Piper](https://img.shields.io/badge/Piper-TTS%20es_ES-00d4ff?style=flat&labelColor=0b1017)
+![Tailscale](https://img.shields.io/badge/Tailscale-red%20de%20m%C3%A1quinas-2a2a2a?style=flat&labelColor=0b1017)
+
+### 📊 Actividad, sin mentir
+
+![Estadísticas del perfil](https://raw.githubusercontent.com/JuanTS/JuanTS/main/assets/stats.svg)
+
+![Serpiente de contribuciones](https://raw.githubusercontent.com/JuanTS/JuanTS/main/assets/snake.svg)
+
+> La serpiente recorre 52 semanas de silencio y solo encuentra comida el 3 de noviembre. El diseño es honesto, el historial también.
+
+### 🗂️ Proyectos
+
+| Proyecto | Qué es | Estado |
+|---|---|---|
+| [EmprendIA](https://github.com/JuanTS/emprendeia-fp) | Fase 0: IA para convertir proyectos de FP de Castilla-La Mancha en autoempleo | En marcha |
+| AI Lab Panel | Panel cyberpunk de rendimiento del laboratorio: modelos, VRAM/RAM, latencia y tok/s en vivo | Privado, con razón |
+
+### 📬 Contacto
+
+Por aquí. Y si es urgente, ya sabes dónde encontrarme.
+
+---
+
+*Si estás leyendo esto, ya eres la contribución más importante del mes.*
