@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150">
+<rect width="880" height="150" fill="#0b1017"/>
+<rect width="880" height="150" fill="none" stroke="#1d2838" stroke-width="2" rx="8"/>
+<rect x="10" y="14" width="127" height="120" fill="#131b25" rx="6"/>
+<text x="73" y="42" font-family="monospace" font-size="12" fill="#7f8fa6" text-anchor="middle">Commits</text>
+<text x="73" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#00d4ff" text-anchor="middle">5</text>
+<text x="73" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">en marcha</text>
+<rect x="157" y="14" width="127" height="120" fill="#131b25" rx="6"/>
+<text x="220" y="42" font-family="monospace" font-size="12" fill="#7f8fa6" text-anchor="middle">Contribuciones</text>
+<text x="220" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#ffd94d" text-anchor="middle">6</text>
+<text x="220" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">en marcha</text>
+<rect x="303" y="14" width="127" height="120" fill="#131b25" rx="6"/>
+<text x="367" y="42" font-family="monospace" font-size="12" fill="#7f8fa6" text-anchor="middle">Repos públicos</text>
+<text x="367" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#00d4ff" text-anchor="middle">2</text>
+<text x="367" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">en marcha</text>
+<rect x="450" y="14" width="127" height="120" fill="#131b25" rx="6"/>
+<text x="513" y="42" font-family="monospace" font-size="12" fill="#7f8fa6" text-anchor="middle">Estrellas</text>
+<text x="513" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#9fb3c8" text-anchor="middle">0</text>
+<text x="513" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">todavía</text>
+<rect x="597" y="14" width="127" height="120" fill="#131b25" rx="6"/>
+<text x="660" y="42" font-family="monospace" font-size="12" fill="#7f8fa6" text-anchor="middle">PRs</text>
+<text x="660" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#9fb3c8" text-anchor="middle">0</text>
+<text x="660" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">todavía</text>
+<rect x="743" y="14" width="127" height="120" fill="#131b25" rx="6"/>
+<text x="807" y="42" font-family="monospace" font-size="12" fill="#7f8fa6" text-anchor="middle">Días activos</text>
+<text x="807" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#ffd94d" text-anchor="middle">1</text>
+<text x="807" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">el día que Hermes se puso las pilas</text>
+</svg>
