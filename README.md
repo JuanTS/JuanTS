@@ -34,7 +34,7 @@ Unidas por Tailscale. El firewall las separa con entusiasmo, como debe ser.
 ![Piper](https://img.shields.io/badge/Piper-TTS%20es_ES-00d4ff?style=flat&labelColor=0b1017)
 ![Tailscale](https://img.shields.io/badge/Tailscale-red%20de%20m%C3%A1quinas-2a2a2a?style=flat&labelColor=0b1017)
 
-### 📊 Actividad, sin mentir
+### 📊 Actividad:
 
 ![Estadísticas del perfil](https://raw.githubusercontent.com/JuanTS/JuanTS/main/assets/stats.svg)
 
@@ -54,4 +54,4 @@ Por aquí. Y si es urgente, ya sabes dónde encontrarme.
 
 ---
 
-*Si estás leyendo esto, ya eres la contribución más importante del mes.*
+*Si has leído hasta aquí, gracias por su tiempo.*
