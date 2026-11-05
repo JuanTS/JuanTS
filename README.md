@@ -7,10 +7,8 @@
 Monto laboratorios de IA en casa: tres máquinas, modelos locales, voz propia y un panel de control que se reinicia cuando le apetece. Nada de humo: si algo funciona, se ve; si no, se ve el error en el panel.
 
 ```text
-juan@lider:~$ neofetch --lab
 Modelos locales .... Qwen3.8-Flash-Next (Strata), llama.cpp, Ollama
 Voz ................ Whisper (STT) + Piper (TTS), castellano peninsular
-Panel .............. puerto 8788, refresco cada 5 s, negro con amarillo
 Filosofía .......... lo local primero; la nube es para quienes dudan
 ```
 
@@ -42,7 +40,6 @@ Unidas por Tailscale. El firewall las separa con entusiasmo, como debe ser.
 
 ![Serpiente de contribuciones](https://raw.githubusercontent.com/JuanTS/JuanTS/main/assets/snake.svg)
 
-> La serpiente recorre 52 semanas de silencio y solo encuentra comida el 3 de noviembre. El diseño es honesto, el historial también.
 
 ### 🗂️ Proyectos
 
