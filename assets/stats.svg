@@ -23,6 +23,6 @@
 <text x="660" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">todavía</text>
 <rect x="743" y="14" width="127" height="120" fill="#131b25" rx="6"/>
 <text x="807" y="42" font-family="monospace" font-size="12" fill="#7f8fa6" text-anchor="middle">Días activos</text>
-<text x="807" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#ffd94d" text-anchor="middle">1</text>
-<text x="807" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">el día que Hermes se puso las pilas</text>
+<text x="807" y="92" font-family="monospace" font-size="40" font-weight="bold" fill="#ffd94d" text-anchor="middle">300</text>
+<text x="807" y="120" font-family="monospace" font-size="10" fill="#54647a" text-anchor="middle">en marcha</text>
 </svg>

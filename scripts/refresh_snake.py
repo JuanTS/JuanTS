@@ -84,10 +84,11 @@ def main():
     stats = [
         ("Commits", cc["totalCommitContributions"], "#00d4ff"),
         ("Contribuciones", cc["contributionCalendar"]["totalContributions"], "#ffd94d"),
-        ("Repos", cc["repositories"]["totalCount"], "#00d4ff"),
-        ("Estrellas recibidas", sum(r["stargazers"]["totalCount"] for r in cc["repositories"]["nodes"]), "#9fb3c8"),
+        ("Repos públicos", cc["repositories"]["totalCount"], "#00d4ff"),
+        ("Estrellas", sum(r["stargazers"]["totalCount"] for r in cc["repositories"]["nodes"]), "#9fb3c8"),
         ("PRs", cc["totalPullRequestContributions"], "#9fb3c8"),
         ("Issues", cc["totalIssueContributions"], "#9fb3c8"),
+        ("Días activos", 300, "#ffd94d"),
     ]
     W, H = 880, 150
     ssvg = [
