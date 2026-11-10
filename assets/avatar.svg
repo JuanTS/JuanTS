@@ -10,12 +10,13 @@
       <stop offset="100%" stop-color="#ff00e5"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
   <rect width="400" height="400" fill="url(#bg)"/>
-  <g stroke="#00f0ff" stroke-opacity="0.08" stroke-width="1">
+  <!-- grid -->
+  <g stroke="#00f0ff" stroke-opacity="0.06" stroke-width="1">
     <line x1="0" y1="50" x2="400" y2="50"/>
     <line x1="0" y1="100" x2="400" y2="100"/>
     <line x1="0" y1="150" x2="400" y2="150"/>
@@ -31,35 +32,73 @@
     <line x1="300" y1="0" x2="300" y2="400"/>
     <line x1="350" y1="0" x2="350" y2="400"/>
   </g>
-  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
-  <circle cx="200" cy="200" r="155" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.25"/>
-  <path d="M200 95 C260 95 300 140 300 205 C300 275 255 325 200 325 C145 325 100 275 100 205 C100 140 140 95 200 95 Z" fill="#0e1326" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)"/>
-  <path d="M120 135 L135 70 L155 120 L180 55 L200 110 L220 55 L245 120 L265 70 L280 135" stroke="#ff00e5" stroke-width="3" fill="none" filter="url(#glow)"/>
-  <path d="M125 130 L140 80 L160 125 L185 65 L200 115 L215 65 L240 125 L260 80 L275 130" stroke="#00f0ff" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <!-- circuit lines -->
+  <g stroke="#00f0ff" stroke-width="1" opacity="0.25" fill="none">
+    <path d="M20 60 L80 60 L80 120 L140 120"/>
+    <path d="M380 340 L320 340 L320 280 L260 280"/>
+    <path d="M30 370 L90 370 L90 330"/>
+  </g>
+  <g fill="#00f0ff" opacity="0.4">
+    <circle cx="80" cy="60" r="2"/>
+    <circle cx="80" cy="120" r="2"/>
+    <circle cx="140" cy="120" r="2"/>
+    <circle cx="320" cy="340" r="2"/>
+    <circle cx="320" cy="280" r="2"/>
+  </g>
+  <!-- outer ring -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#neon)" stroke-width="1.5" opacity="0.5" filter="url(#glow)"/>
+  <!-- hoodie (capucha) base -->
+  <path d="M60 300 L90 230 L120 180 L140 150 L160 135 L200 125 L240 135 L260 150 L280 180 L310 230 L340 300 L340 400 L60 400 Z" fill="#0a0f1f" stroke="#1d2838" stroke-width="1"/>
+  <!-- hoodie shadow side -->
+  <path d="M200 125 L240 135 L260 150 L280 180 L310 230 L340 300 L340 400 L200 400 Z" fill="#000" opacity="0.35"/>
+  <!-- hood opening (U shape) -->
+  <path d="M140 150 Q200 175 260 150 L255 165 Q200 190 145 165 Z" fill="#050810" stroke="#00f0ff" stroke-width="1" opacity="0.8"/>
+  <!-- hood cords -->
+  <line x1="192" y1="172" x2="192" y2="230" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <line x1="208" y1="172" x2="208" y2="230" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <!-- face shape (geometric, wide forehead, jaw) -->
+  <path d="M150 105 L250 105 L265 130 L270 175 L260 215 L245 245 L225 260 L200 265 L175 260 L155 245 L140 215 L130 175 L135 130 Z" fill="#0e1326" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+  <!-- face shading (right side) -->
+  <path d="M200 105 L250 105 L265 130 L270 175 L260 215 L245 245 L225 260 L200 265 L200 105 Z" fill="#00f0ff" opacity="0.08"/>
+  <!-- hair (spiky) -->
+  <path d="M145 110 L155 70 L175 100 L195 55 L210 95 L230 60 L245 100 L260 75 L265 115 L250 125 L150 125 Z" fill="#050810" stroke="#ff00e5" stroke-width="1.5" filter="url(#glow)"/>
+  <path d="M150 108 L160 78 L178 102 L198 62 L212 98 L228 68 L242 102 L255 82 L258 112" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.6"/>
+  <!-- eyebrows -->
+  <rect x="160" y="150" width="32" height="5" rx="2" fill="#00f0ff" opacity="0.9"/>
+  <rect x="208" y="150" width="32" height="5" rx="2" fill="#ff00e5" opacity="0.9"/>
+  <!-- sunglasses -->
   <g filter="url(#glow)">
-    <rect x="125" y="175" width="60" height="32" rx="8" fill="#000" stroke="#00f0ff" stroke-width="2.5"/>
-    <rect x="215" y="175" width="60" height="32" rx="8" fill="#000" stroke="#ff00e5" stroke-width="2.5"/>
-    <line x1="185" y1="191" x2="215" y2="191" stroke="#7c3aed" stroke-width="3"/>
-    <line x1="100" y1="191" x2="125" y2="191" stroke="#7c3aed" stroke-width="3"/>
-    <line x1="275" y1="191" x2="300" y2="191" stroke="#7c3aed" stroke-width="3"/>
-    <line x1="132" y1="182" x2="150" y2="182" stroke="#00f0ff" stroke-width="1.5" opacity="0.8"/>
-    <line x1="222" y1="182" x2="240" y2="182" stroke="#ff00e5" stroke-width="1.5" opacity="0.8"/>
+    <rect x="150" y="168" width="42" height="26" rx="6" fill="#000" stroke="#00f0ff" stroke-width="2"/>
+    <rect x="208" y="168" width="42" height="26" rx="6" fill="#000" stroke="#ff00e5" stroke-width="2"/>
+    <line x1="192" y1="181" x2="208" y2="181" stroke="#7c3aed" stroke-width="2.5"/>
+    <line x1="125" y1="181" x2="150" y2="181" stroke="#7c3aed" stroke-width="2.5"/>
+    <line x1="250" y1="181" x2="275" y2="181" stroke="#7c3aed" stroke-width="2.5"/>
+    <line x1="156" y1="174" x2="172" y2="174" stroke="#00f0ff" stroke-width="1.2" opacity="0.8"/>
+    <line x1="214" y1="174" x2="230" y2="174" stroke="#ff00e5" stroke-width="1.2" opacity="0.8"/>
   </g>
-  <path d="M200 208 L194 232 L206 232 Z" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
-  <path d="M165 260 Q200 278 240 255" stroke="#00f0ff" stroke-width="2.5" fill="none" filter="url(#glow)"/>
-  <path d="M130 250 Q200 300 270 250" stroke="#ff00e5" stroke-width="1" fill="none" opacity="0.4"/>
+  <!-- nose -->
+  <line x1="200" y1="198" x2="200" y2="218" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <path d="M196 220 Q200 224 204 220" stroke="#7c3aed" stroke-width="1.2" fill="none" opacity="0.7"/>
+  <!-- mouth -->
+  <path d="M175 238 Q200 250 228 236" stroke="#00f0ff" stroke-width="2" fill="none" filter="url(#glow)"/>
+  <!-- jaw line accent -->
+  <path d="M150 230 Q200 275 250 230" stroke="#ff00e5" stroke-width="1" fill="none" opacity="0.4"/>
+  <!-- circuit on cheeks -->
   <g stroke="#00f0ff" stroke-width="1" opacity="0.5">
-    <circle cx="140" cy="230" r="2" fill="#00f0ff"/>
-    <line x1="140" y1="230" x2="120" y2="245"/>
-    <circle cx="260" cy="230" r="2" fill="#ff00e5"/>
-    <line x1="260" y1="230" x2="280" y2="245"/>
+    <circle cx="148" cy="210" r="2" fill="#00f0ff"/>
+    <line x1="148" y1="210" x2="132" y2="225"/>
+    <circle cx="252" cy="210" r="2" fill="#ff00e5"/>
+    <line x1="252" y1="210" x2="268" y2="225"/>
   </g>
-  <rect x="0" y="198" width="400" height="2" fill="#00f0ff" opacity="0.25"/>
-  <text x="200" y="372" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="url(#neon)" filter="url(#glow)">JuanTS</text>
+  <!-- scanline -->
+  <rect x="0" y="196" width="400" height="2" fill="#00f0ff" opacity="0.2"/>
+  <!-- initials -->
+  <text x="200" y="385" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="url(#neon)" filter="url(#glow)">JuanTS</text>
+  <!-- corner brackets -->
   <g stroke="url(#neon)" stroke-width="2" fill="none" opacity="0.7">
-    <path d="M20 20 L20 50 M20 20 L50 20"/>
-    <path d="M380 20 L380 50 M380 20 L350 20"/>
-    <path d="M20 380 L20 350 M20 380 L50 380"/>
-    <path d="M380 380 L380 350 M380 380 L350 380"/>
+    <path d="M15 15 L15 45 M15 15 L45 15"/>
+    <path d="M385 15 L385 45 M385 15 L355 15"/>
+    <path d="M15 385 L15 355 M15 385 L45 385"/>
+    <path d="M385 385 L385 355 M385 385 L355 385"/>
   </g>
 </svg>
