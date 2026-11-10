@@ -4,7 +4,7 @@
 
 ## Juan Talavera · `JuanTS`
 
-Monto laboratorios de IA en casa: tres máquinas, modelos locales, voz propia y un panel de control que se reinicia cuando le apetece.
+Laboratorios de IA en casa: tres máquinas, modelos locales, voz propia y un panel de control.
 
 ```text
 Modelos locales .... Qwen3.8-Flash-Next (Strata), llama.cpp, Ollama
