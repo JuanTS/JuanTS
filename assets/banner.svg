@@ -90,4 +90,18 @@
 <text x="260.8" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">n<animate attributeName="opacity" to="1" begin="1.6s" dur="0.3s" fill="freeze"/></text>
 <text x="268.2" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">g<animate attributeName="opacity" to="1" begin="1.6500000000000001s" dur="0.3s" fill="freeze"/></text>
 <text x="275.6" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0"> <animate attributeName="opacity" to="1" begin="1.7000000000000002s" dur="0.3s" fill="freeze"/></text>
+<text x="283.0" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">y<animate attributeName="opacity" to="1" begin="1.75s" dur="0.3s" fill="freeze"/></text>
+<text x="290.4" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0"> <animate attributeName="opacity" to="1" begin="1.80s" dur="0.3s" fill="freeze"/></text>
+<text x="297.8" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">h<animate attributeName="opacity" to="1" begin="1.85s" dur="0.3s" fill="freeze"/></text>
+<text x="305.2" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">e<animate attributeName="opacity" to="1" begin="1.90s" dur="0.3s" fill="freeze"/></text>
+<text x="312.6" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">r<animate attributeName="opacity" to="1" begin="1.95s" dur="0.3s" fill="freeze"/></text>
+<text x="320.0" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">m<animate attributeName="opacity" to="1" begin="2.00s" dur="0.3s" fill="freeze"/></text>
+<text x="327.4" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">e<animate attributeName="opacity" to="1" begin="2.05s" dur="0.3s" fill="freeze"/></text>
+<text x="334.8" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">s<animate attributeName="opacity" to="1" begin="2.10s" dur="0.3s" fill="freeze"/></text>
+<text x="342.2" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0"> <animate attributeName="opacity" to="1" begin="2.15s" dur="0.3s" fill="freeze"/></text>
+<text x="349.6" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">a<animate attributeName="opacity" to="1" begin="2.20s" dur="0.3s" fill="freeze"/></text>
+<text x="357.0" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">g<animate attributeName="opacity" to="1" begin="2.25s" dur="0.3s" fill="freeze"/></text>
+<text x="364.4" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">e<animate attributeName="opacity" to="1" begin="2.30s" dur="0.3s" fill="freeze"/></text>
+<text x="371.8" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">n<animate attributeName="opacity" to="1" begin="2.35s" dur="0.3s" fill="freeze"/></text>
+<text x="379.2" y="210" font-family="monospace" font-size="14" fill="#9fb3c8" opacity="0">t<animate attributeName="opacity" to="1" begin="2.40s" dur="0.3s" fill="freeze"/></text>
 </svg>
