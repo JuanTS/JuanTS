@@ -15,7 +15,7 @@ Filosofía .......... lo local primero; la nube es para quienes dudan
 ### 🧪 El laboratorio
 
 ```
-     [Líder · Lenovo]  ⇄  [Implementador · Ubuntu]  ⇄  [Revisor · portátil]
+     [Líder]  ⇄  [Implementador]  ⇄  [Revisor]
       Hermes + voz         modelos pesados, RAG,         pruebas, VSCode,
       panel de control     finetuning                    OpenCode
 ```
@@ -40,13 +40,16 @@ Unidas por Tailscale. El firewall las separa con entusiasmo, como debe ser.
 
 ![Serpiente de contribuciones](https://raw.githubusercontent.com/JuanTS/JuanTS/main/assets/snake.svg)
 
+Días activos: 300
+En marcha
 
 ### 🗂️ Proyectos
 
 | Proyecto | Qué es | Estado |
 |---|---|---|
-| [EmprendIA](https://github.com/JuanTS/emprendeia-fp) | Fase 0: IA para convertir proyectos de FP de Castilla-La Mancha en autoempleo | En marcha |
-| AI Lab Panel | Panel cyberpunk de rendimiento del laboratorio: modelos, VRAM/RAM, latencia y tok/s en vivo | Privado, con razón |
+| [EmprendIA](https://github.com/JuanTS/emprendia-fp) | Fase 0: IA para convertir proyectos de FP de Castilla-La Mancha en autoempleo | En marcha |
+| AI Lab Panel | Panel cyberpunk de rendimiento del laboratorio: modelos, VRAM/RAM, latencia y tok/s en vivo | Privado |
+| RU Albacete | Proyecto privado en Albacete | Privado |
 
 ### 📬 Contacto
 

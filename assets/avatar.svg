@@ -1,7 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-<rect width="400" height="400" fill="#0b1017"/>
-<rect x="10" y="10" width="380" height="380" fill="none" stroke="#1d2838" stroke-width="4" rx="24"/>
-<text x="200" y="190" font-family="monospace" font-size="110" font-weight="bold" fill="#ffd94d" text-anchor="middle">J</text>
-<text x="200" y="275" font-family="monospace" font-size="40" fill="#00d4ff" text-anchor="middle">TS$</text>
-<rect x="262" y="250" width="14" height="30" fill="#00d4ff"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></rect>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="100%" stop-color="#1a0b2e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g stroke="#00d4ff" stroke-opacity="0.12" stroke-width="1">
+    <line x1="0" y1="100" x2="400" y2="100"/>
+    <line x1="0" y1="200" x2="400" y2="200"/>
+    <line x1="0" y1="300" x2="400" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+  </g>
+  <ellipse cx="200" cy="180" rx="88" ry="104" fill="#12162a" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+  <rect x="140" y="160" width="40" height="8" rx="4" fill="#00d4ff" filter="url(#glow)"/>
+  <rect x="220" y="160" width="40" height="8" rx="4" fill="#ff00ff" filter="url(#glow)"/>
+  <path d="M160 220 Q200 238 240 220" stroke="#00d4ff" stroke-width="3" fill="none" filter="url(#glow)"/>
+  <path d="M110 140 L125 80 L145 125 L170 60 L200 115 L230 60 L255 125 L275 80 L290 140" stroke="#ff00ff" stroke-width="3" fill="none" filter="url(#glow)"/>
+  <rect x="0" y="178" width="400" height="2" fill="#00d4ff" opacity="0.35"/>
+  <text x="200" y="360" text-anchor="middle" font-family="monospace" font-size="26" fill="url(#neon)" filter="url(#glow)">JuanTS</text>
 </svg>
