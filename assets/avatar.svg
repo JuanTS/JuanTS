@@ -1,32 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0f1a"/>
-      <stop offset="100%" stop-color="#1a0b2e"/>
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="100%" stop-color="#120826"/>
     </linearGradient>
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00d4ff"/>
-      <stop offset="100%" stop-color="#ff00ff"/>
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ff00e5"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
   <rect width="400" height="400" fill="url(#bg)"/>
-  <g stroke="#00d4ff" stroke-opacity="0.12" stroke-width="1">
+  <g stroke="#00f0ff" stroke-opacity="0.08" stroke-width="1">
+    <line x1="0" y1="50" x2="400" y2="50"/>
     <line x1="0" y1="100" x2="400" y2="100"/>
+    <line x1="0" y1="150" x2="400" y2="150"/>
     <line x1="0" y1="200" x2="400" y2="200"/>
+    <line x1="0" y1="250" x2="400" y2="250"/>
     <line x1="0" y1="300" x2="400" y2="300"/>
+    <line x1="0" y1="350" x2="400" y2="350"/>
+    <line x1="50" y1="0" x2="50" y2="400"/>
     <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="150" y1="0" x2="150" y2="400"/>
     <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="250" y1="0" x2="250" y2="400"/>
     <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="350" y1="0" x2="350" y2="400"/>
   </g>
-  <ellipse cx="200" cy="180" rx="88" ry="104" fill="#12162a" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
-  <rect x="140" y="160" width="40" height="8" rx="4" fill="#00d4ff" filter="url(#glow)"/>
-  <rect x="220" y="160" width="40" height="8" rx="4" fill="#ff00ff" filter="url(#glow)"/>
-  <path d="M160 220 Q200 238 240 220" stroke="#00d4ff" stroke-width="3" fill="none" filter="url(#glow)"/>
-  <path d="M110 140 L125 80 L145 125 L170 60 L200 115 L230 60 L255 125 L275 80 L290 140" stroke="#ff00ff" stroke-width="3" fill="none" filter="url(#glow)"/>
-  <rect x="0" y="178" width="400" height="2" fill="#00d4ff" opacity="0.35"/>
-  <text x="200" y="360" text-anchor="middle" font-family="monospace" font-size="26" fill="url(#neon)" filter="url(#glow)">JuanTS</text>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="200" cy="200" r="155" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.25"/>
+  <path d="M200 95 C260 95 300 140 300 205 C300 275 255 325 200 325 C145 325 100 275 100 205 C100 140 140 95 200 95 Z" fill="#0e1326" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)"/>
+  <path d="M120 135 L135 70 L155 120 L180 55 L200 110 L220 55 L245 120 L265 70 L280 135" stroke="#ff00e5" stroke-width="3" fill="none" filter="url(#glow)"/>
+  <path d="M125 130 L140 80 L160 125 L185 65 L200 115 L215 65 L240 125 L260 80 L275 130" stroke="#00f0ff" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <g filter="url(#glow)">
+    <rect x="125" y="175" width="60" height="32" rx="8" fill="#000" stroke="#00f0ff" stroke-width="2.5"/>
+    <rect x="215" y="175" width="60" height="32" rx="8" fill="#000" stroke="#ff00e5" stroke-width="2.5"/>
+    <line x1="185" y1="191" x2="215" y2="191" stroke="#7c3aed" stroke-width="3"/>
+    <line x1="100" y1="191" x2="125" y2="191" stroke="#7c3aed" stroke-width="3"/>
+    <line x1="275" y1="191" x2="300" y2="191" stroke="#7c3aed" stroke-width="3"/>
+    <line x1="132" y1="182" x2="150" y2="182" stroke="#00f0ff" stroke-width="1.5" opacity="0.8"/>
+    <line x1="222" y1="182" x2="240" y2="182" stroke="#ff00e5" stroke-width="1.5" opacity="0.8"/>
+  </g>
+  <path d="M200 208 L194 232 L206 232 Z" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.7"/>
+  <path d="M165 260 Q200 278 240 255" stroke="#00f0ff" stroke-width="2.5" fill="none" filter="url(#glow)"/>
+  <path d="M130 250 Q200 300 270 250" stroke="#ff00e5" stroke-width="1" fill="none" opacity="0.4"/>
+  <g stroke="#00f0ff" stroke-width="1" opacity="0.5">
+    <circle cx="140" cy="230" r="2" fill="#00f0ff"/>
+    <line x1="140" y1="230" x2="120" y2="245"/>
+    <circle cx="260" cy="230" r="2" fill="#ff00e5"/>
+    <line x1="260" y1="230" x2="280" y2="245"/>
+  </g>
+  <rect x="0" y="198" width="400" height="2" fill="#00f0ff" opacity="0.25"/>
+  <text x="200" y="372" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="url(#neon)" filter="url(#glow)">JuanTS</text>
+  <g stroke="url(#neon)" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M20 20 L20 50 M20 20 L50 20"/>
+    <path d="M380 20 L380 50 M380 20 L350 20"/>
+    <path d="M20 380 L20 350 M20 380 L50 380"/>
+    <path d="M380 380 L380 350 M380 380 L350 380"/>
+  </g>
 </svg>
